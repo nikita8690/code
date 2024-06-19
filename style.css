@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://realprogramming.com/wp-content/uploads/2021/02/online-coding-classes.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+#logo {
+  height: 170px;
+  width: 180px;
+  z-index: 1;
+  margin-top: -27px;
+}
+.menuitems {
+  display: flex;
+  color: white;
+  gap: 24px;
+  margin-left: 700px;
+  margin-top: -107px;
+  z-index: 1;
+}
+.item:hover {
+  cursor: pointer;
+  text-decoration: underline rgba(107, 5, 5, 0.849);
+  z-index: 1;
+}
+.menuitems div {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 1;
+}
+.btn {
+  background-color: rgba(90, 2, 2, 0.849);
+  width: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 36px;
+  padding-left: 4px;
+  border-radius: 9px;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  width: 120px;
+  height: 38;
+}
+#code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 39px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 117px;
+}
+#background {
+  border: 2px solid rgba(107, 5, 5, 0.849);
+  width: 300px;
+  margin-left: 460px;
+  margin-top: 20px;
+}
+#start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 69px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.btn4 {
+  background-color: rgba(90, 2, 2, 0.849);
+  width: 150px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 40px;
+  padding-left: 4px;
+  border-radius: 9px;
+  border: none;
+  margin-left: 550px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.btn4:hover {
+  width: 160px;
+  height: 42px;
+}
+#comma {
+  height: 70px;
+  width: 80px;
+  margin-top: 770px;
+  margin-left: 100px;
+  gap: -80px;
+}
+#lines {
+  margin-top: -70px;
+  margin-left: 300px;
+  font-size: xx-large;
+}
+#writer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 90px;
+  font-size: x-large;
+}
+#courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+#background2 {
+  border: 2px solid rgba(107, 5, 5, 0.849);
+  width: 100px;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+#digital-marketing {
+  height: 280px;
+  width: 340px;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+.about {
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.btn3 {
+  background-color: rgba(90, 2, 2, 0.849);
+  width: 110px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 36px;
+  padding-left: 4px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 140px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn3:hover {
+  width: 120px;
+  height: 38px;
+}
+.box1 {
+  width: 400px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.box1:hover {
+  background-color: rgba(94, 6, 6, 0.363);
+  border-radius: 10px;
+}
+#box2 {
+  width: 400px;
+  margin-left: 680px;
+  margin-top: -470px;
+}
+#box2:hover {
+  background-color: rgba(94, 6, 6, 0.363);
+  border-radius: 10px;
+}
+#full-stack {
+  height: 280px;
+  width: 340px;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+#image {
+  height: 550px;
+  width: 1000px;
+  margin-left: 100px;
+  margin-top: 100px;
+  opacity: 0.8;
+  border: 1px solid grey;
+  z-index: -1;
+  overflow-y: scroll;
+}
+#full-stack-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+#brder1 {
+  border: 1px solid rgba(107, 5, 5, 0.849);
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#full-stack-font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  width: 600px;
+}
+#box3 {
+  z-index: 1;
+  margin-left: 500px;
+  margin-top: -400px;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+#front-back {
+  margin-top: 450px;
+  margin-left: 130px;
+}
+#front-end {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  width: 230px;
+}
+#brder2 {
+  border: 1px solid rgba(107, 5, 5, 0.849);
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#backend {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: 250px;
+}
+.btn5 {
+  background-color: rgba(90, 2, 2, 0.849);
+  width: 110px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 36px;
+  padding-left: 4px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn5:hover {
+  width: 120px;
+  height: 38px;
+}
+#images {
+  margin-left: 500px;
+  margin-top: -450px;
+}
+#imge1 {
+  width: 300px;
+  height: 200px;
+}
+#imge4 {
+  width: 350px;
+  height: 200px;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+#imge3 {
+  width: 320px;
+  height: 330px;
+  margin-left: 340px;
+  margin-top: -230px;
+}
+#imge5 {
+  width: 300px;
+  height: 310px;
+  margin-top: -1000px;
+}
+#main-div {
+  background-color: rgba(48, 2, 2, 0.74);
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 1px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+#address {
+  padding-top: 40px;
+  padding-left: 300px;
+}
+#phone {
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 300px;
+}
+#email {
+  margin-top: -24px;
+  margin-left: 700px;
+  width: 1000px;
+}
